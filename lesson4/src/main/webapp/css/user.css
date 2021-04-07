@@ -1,0 +1,33 @@
+main .user {
+    border: var(--boder);
+    border-radius: var(--border-radius);
+    position: relative;
+    min-height: 140px;
+}
+
+main .user .name {
+    margin: 0.5rem 0 0 0.5rem;
+    font-size: 2rem;
+}
+
+main .user .description ul li {
+    color: lightslategrey;
+}
+
+main .user .description .profilePicture {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 6px 0 0 0;
+}
+
+main .neighbourUsers {
+    color: lightgray;
+    font-size: 1.5rem;
+}
+
+main .neighbourUsers a {
+    text-decoration: unset;
+    color: blue;
+    font-size: 1.5rem;
+}

@@ -1,0 +1,78 @@
+/* form-box */
+.form-box {
+    border: 1px solid var(--border-color);
+    border-top-right-radius: var(--border-radius);
+    border-top-left-radius: var(--border-radius);
+    width: 30rem;
+    margin: 0 auto;
+}
+
+.form-box .header {
+    border-bottom: 1px solid var(--border-color);
+    color: var(--caption-color);
+    font-weight: bold;
+    padding: 0.25rem 0.5rem;
+}
+
+.form-box .field {
+    margin: 1.5rem 0;
+    overflow: hidden;
+}
+
+.form-box .field .name {
+    width: 11rem;
+    float: left;
+    text-align: right;
+    padding-right: 1rem;
+}
+
+.form-box .field .value {
+    width: 15rem;
+    float: left;
+}
+
+.form-box .field input {
+    width: 100%;
+}
+
+.form-box .button-field {
+    margin: 1.5rem 1.5rem 1.5rem 12rem;
+}
+
+.form-box .button-field input {
+    padding: 0.1rem 1.5rem;
+}
+
+.form-box .error {
+    color: var(--error-color);
+    font-size: 0.75rem;
+    margin-left: 12rem;
+}
+
+.form-talk {
+    margin-bottom: 1rem;
+}
+
+.form-talk .user-choice select {
+    border: 1px solid var(--border-color);
+    border-radius: 0.2rem;
+    padding: 0.2rem 0 0.3rem 16px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.form-talk .talk-data .value textarea {
+    border: 1px solid var(--border-color);
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    resize: none;
+    outline: none;
+    -moz-appearance: none;
+}
+
+.form-talk .error {
+    color: var(--error-color);
+    font-size: 0.75rem;
+    margin: 0.75rem 0.75rem 0.75rem 0;
+}

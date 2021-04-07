@@ -1,0 +1,11 @@
+@import "post.css";
+
+main ul {
+    list-style-type: none;
+    margin: unset;
+    padding: unset;
+}
+
+main ul li {
+    margin-bottom: 1rem;
+}
