@@ -1,7 +1,9 @@
 # web
-
 <p>
-  <h3>Links to lessons tasks
+  Mike's Mirzayanov web cousre.
+</p>
+<p>
+  Links to lessons tasks
 </p>
 <ul>
   <li><a href="https://docs.google.com/document/d/1pu2SwlU2BF0nh14Pq3WaGiJH6slwkyFM1y2KafApEYI/edit?usp=sharing">lesson 11</a></li>
